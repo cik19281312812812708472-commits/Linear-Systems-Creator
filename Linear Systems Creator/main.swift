@@ -2,7 +2,7 @@
 //  main.swift
 //  Linear Systems Creator
 //
-//  Created by Desire on 2026-02-28.
+//  Created on 2026-02-28.
 //
 
 import Foundation
