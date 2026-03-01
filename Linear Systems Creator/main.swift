@@ -133,6 +133,7 @@ func  CreateLinearSystem() {
     print(" First equation: \(equationViewed)")
     print(" Second equation: \(equation2Viewed)")
     print("say anything to get the answers")
+    //print("look at desmos for answers")
     
     readLine()! // remove this and change the answeres thing then use https://swiftfiddle.com/ when you don't have xcode.
     
