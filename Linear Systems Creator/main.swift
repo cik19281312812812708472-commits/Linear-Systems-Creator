@@ -134,7 +134,7 @@ func  CreateLinearSystem() {
     print(" Second equation: \(equation2Viewed)")
     print("say anything to get the answers")
     
-    readLine()!
+    readLine()! // remove this and change the answeres thing then use https://swiftfiddle.com/ when you don't have xcode.
     
     print("X is \(equation["x"]!), and Y is \(equation["y"]!)\n")
     // accurate (verified trhough desmos)
