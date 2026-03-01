@@ -7,9 +7,14 @@
 
 import Foundation
 
+var questionNum = 1
+let numOfQuestions = 10
 
+print("There ARE \(numOfQuestions) questions(press enter to go to the next question)")
 
-CreateLinearSystem()
+for i in 0..<(numOfQuestions) {
+    CreateLinearSystem()
+}
 
 
 func  CreateLinearSystem() {
@@ -128,6 +133,8 @@ func  CreateLinearSystem() {
         
     }
     
+    print("⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️")
+    print("Question \(questionNum)")
     print("There are other types of linear systems so don't only study these questions like them. ")
     print("🚩ROUND TO  \(1 / step) for floating point errors. 🚩")
     print(" ")
@@ -138,6 +145,7 @@ func  CreateLinearSystem() {
     //print("look at desmos for answers")
     
     readLine()! // remove this and change the answeres thing then use https://swiftfiddle.com/ when you don't have xcode.
+    questionNum += 1
     
     print(" ")
     print("X is \(equation["x"]!), and Y is \(equation["y"]!)\n")
