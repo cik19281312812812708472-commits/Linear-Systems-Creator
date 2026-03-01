@@ -128,7 +128,9 @@ func  CreateLinearSystem() {
         
     }
     
-    print("there are other types of these equations so study equations like them. AND PRACTICE GRAPHING EQUATIONS")
+    print("There are other types of linear systems so don't only study these questions like them. ")
+    print("🚩ROUND TO  \(1 / step) for floating point errors. 🚩")
+    print(" ")
     print("Solve for x and y in this system:")
     print(" First equation: \(equationViewed)")
     print(" Second equation: \(equation2Viewed)")
@@ -137,6 +139,7 @@ func  CreateLinearSystem() {
     
     readLine()! // remove this and change the answeres thing then use https://swiftfiddle.com/ when you don't have xcode.
     
+    print(" ")
     print("X is \(equation["x"]!), and Y is \(equation["y"]!)\n")
     // accurate (verified trhough desmos)
     
